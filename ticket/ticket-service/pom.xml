@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spot.on.cinema</groupId>
-	<artifactId>ticket</artifactId>
+	<artifactId>ticket-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ticket</name>
+	<name>ticket-service</name>
 	<description>Ticket Service</description>
 	<properties>
 		<java.version>11</java.version>

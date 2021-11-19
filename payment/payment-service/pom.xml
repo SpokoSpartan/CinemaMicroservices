@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spot.on.cinema</groupId>
-	<artifactId>payment</artifactId>
+	<artifactId>payment-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>payment</name>
+	<name>payment-service</name>
 	<description>Payment Service</description>
 	<properties>
 		<java.version>11</java.version>
