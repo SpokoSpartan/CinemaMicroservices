@@ -18,6 +18,7 @@ eval $(minikube docker-env) && \
   ./script_apply_all.sh
 
 
+echo "Waiting for proxy to be accessible ..."
 PROXY_IP_ADDR=""
 while [ "${PROXY_IP_ADDR}" == "" ];
 do
