@@ -1,0 +1,3 @@
+movie-service:
+  endpoints:
+    movie-by-id: 'http://localhost:8080/get-movie/{id}'

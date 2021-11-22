@@ -23,6 +23,8 @@ spec:
           env:
             - name: SERVER_PORT
               value: "8080"
+            - name: MOVIE_SERVICE_ENDPOINTS_MOVIE_BY_ID
+              value: "http://movies-service:8080/get-movie/{id}"
           resources:
             requests:
               memory: "256Mi"
